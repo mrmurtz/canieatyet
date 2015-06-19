@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400);
+
+body {
+	font-family: 'Lato', Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #24292d;
+	text-align: center;
+	background-color: #aa2c43;
+}
+
+
+header {
+	/* vh - viewport height (browser window/mobile screen height*/
+	height: 700px;
+	height: 100vh;
+
+	/* can;t use vertical % height by default it has to be made to work */
+/*	height: 100%;*/
+}
+
+button {
+	width: 200px;
+	height: 40px;
+	position: absolute;
+	left: 50%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	background-color: transparent;
+	border: 2px solid #fff;
+	font-style: 300;
+	color: #fff;
+	border-radius: 5px;
+}
+
+#refresh button {
+
+}
+
+button:hover {
+	background-color: #828a95;
+
+
+}
+
+h1 {
+	font-size: 6em;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+
+}
+
+.yes {
+	background-color: #6f9283;
+}
+
+
+.time-info {
+	padding: 10px;
+}
+
+section {
+	background-color: #fff;
+}
+
+footer {
+	background-color: #fff;
+	padding: 5px 0 10px 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: #414770;
+}
